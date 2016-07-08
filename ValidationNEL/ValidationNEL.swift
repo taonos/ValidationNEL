@@ -9,7 +9,9 @@
 import Foundation
 import Swiftz
 
-public enum ValidationNEL<T, E: ErrorType> {
+// swiftlint:disable variable_name_min_length
+
+public enum ValidationNEL<T, E> {
     case Success(T)
     case Failure([E])
     
@@ -53,7 +55,6 @@ public enum ValidationNEL<T, E: ErrorType> {
      
      - returns: the success value or the default value
      */
-    // swiftlint:disable variable_name_min_length
     public func getOrElse(x: T) -> T {
         switch self {
         case let .Success(a):

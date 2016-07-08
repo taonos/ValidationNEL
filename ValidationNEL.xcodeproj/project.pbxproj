@@ -14,6 +14,7 @@
 		7E6584751D2F688D00BC8204 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6584741D2F688D00BC8204 /* Quick.framework */; };
 		7E6584771D2F689100BC8204 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6584761D2F689100BC8204 /* Nimble.framework */; };
 		7E65847B1D2F6B3100BC8204 /* ValidationNEL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65847A1D2F6B3100BC8204 /* ValidationNEL.swift */; };
+		7E65847E1D2F7B3100BC8204 /* MyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65847D1D2F7B3100BC8204 /* MyError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		7E6584741D2F688D00BC8204 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Carthage/Checkouts/Quick/build/Debug-iphoneos/Quick.framework"; sourceTree = "<group>"; };
 		7E6584761D2F689100BC8204 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
 		7E65847A1D2F6B3100BC8204 /* ValidationNEL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationNEL.swift; sourceTree = "<group>"; };
+		7E65847D1D2F7B3100BC8204 /* MyError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		7E6584501D2F665200BC8204 /* ValidationNELTests */ = {
 			isa = PBXGroup;
 			children = (
+				7E65847C1D2F7B2100BC8204 /* Helpers */,
 				7E6584511D2F665200BC8204 /* ValidationNELTests.swift */,
 				7E6584531D2F665200BC8204 /* Info.plist */,
 			);
@@ -107,6 +110,14 @@
 				7E6584721D2F687F00BC8204 /* Swiftz.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E65847C1D2F7B2100BC8204 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7E65847D1D2F7B3100BC8204 /* MyError.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E65847E1D2F7B3100BC8204 /* MyError.swift in Sources */,
 				7E6584521D2F665200BC8204 /* ValidationNELTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
