@@ -1,5 +1,7 @@
 # ValidationNEL
 
+[![Build Status](https://travis-ci.org/Hxucaa/ValidationNEL.svg?branch=master)](https://travis-ci.org/Hxucaa/ValidationNEL)
+
 ValidationNEL is an applicative functor. Instead of chaining the result from first event to the next, it validates all events:
 
 
