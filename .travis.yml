@@ -1,0 +1,9 @@
+language: objective-c
+osx_image: xcode7.3
+xcode_sdk: iphonesimulator8.3
+xcode_project: ValidationNEL.xcodeproj
+xcode_scheme: ValidationNELTests
+
+
+script:
+  - xcodebuild clean build test -project ValidationNEL.xcodeproj -scheme ValidationNELTests
