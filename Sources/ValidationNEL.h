@@ -2,11 +2,11 @@
 //  ValidationNEL.h
 //  ValidationNEL
 //
-//  Created by Hong Zhu on 2016-07-07.
+//  Created by Hong Zhu on 2016-07-08.
 //  Copyright © 2016 Lance Zhu. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for ValidationNEL.
 FOUNDATION_EXPORT double ValidationNELVersionNumber;

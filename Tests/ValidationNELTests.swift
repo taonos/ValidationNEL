@@ -9,7 +9,7 @@
 import Quick
 import Nimble
 import Swiftz
-@testable import ValidationNEL
+import ValidationNEL
 
 class ValidationNELTests : QuickSpec {
     

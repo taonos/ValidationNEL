@@ -4,6 +4,7 @@
 ## Build generated
 build/
 DerivedData
+xcodebuild.log
 
 ## Various settings
 *.pbxuser
@@ -31,3 +32,7 @@ xcuserdata
 
 # Carthage
 Carthage/Build
+Demo/Pods
+Build
+vendor
+.vendor

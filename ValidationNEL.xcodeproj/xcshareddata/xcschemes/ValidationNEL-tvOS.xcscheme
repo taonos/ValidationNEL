@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7E6584411D2F665200BC8204"
+               BlueprintIdentifier = "7E6584E31D305E6400BC8204"
                BuildableName = "ValidationNEL.framework"
-               BlueprintName = "ValidationNEL"
+               BlueprintName = "ValidationNEL-tvOS"
                ReferencedContainer = "container:ValidationNEL.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,9 +33,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7E65844B1D2F665200BC8204"
-               BuildableName = "ValidationNELTests.xctest"
-               BlueprintName = "ValidationNELTests"
+               BlueprintIdentifier = "7E65851C1D316FAE00BC8204"
+               BuildableName = "ValidationNEL-tvOSTests.xctest"
+               BlueprintName = "ValidationNEL-tvOSTests"
                ReferencedContainer = "container:ValidationNEL.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,9 +43,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E6584411D2F665200BC8204"
+            BlueprintIdentifier = "7E6584E31D305E6400BC8204"
             BuildableName = "ValidationNEL.framework"
-            BlueprintName = "ValidationNEL"
+            BlueprintName = "ValidationNEL-tvOS"
             ReferencedContainer = "container:ValidationNEL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +65,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E6584411D2F665200BC8204"
+            BlueprintIdentifier = "7E6584E31D305E6400BC8204"
             BuildableName = "ValidationNEL.framework"
-            BlueprintName = "ValidationNEL"
+            BlueprintName = "ValidationNEL-tvOS"
             ReferencedContainer = "container:ValidationNEL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,9 +83,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E6584411D2F665200BC8204"
+            BlueprintIdentifier = "7E6584E31D305E6400BC8204"
             BuildableName = "ValidationNEL.framework"
-            BlueprintName = "ValidationNEL"
+            BlueprintName = "ValidationNEL-tvOS"
             ReferencedContainer = "container:ValidationNEL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -4,17 +4,16 @@ comment:
   layout: "header, changes, diff, sunburst"
 coverage:
   ignore:
-  - Pods/.*
-  - Applications/Xcode.app/.*
-  - vendor/.*
-  - Carthage/.*
-  - .*Tests.m
-  - .*Tests.swift
-  - '# Add the folders containing your unit tests'
-  - '# This ensures any test utility classes you create are also ignored'
-  - Demo/Tests/*
-  - Demo/Pods/*
-  - Demo/Build/*
+    - Pods/.*
+    - Applications/Xcode.app/.*
+    - vendor/.*
+    - Carthage/.*
+    - "Tests/*"
+    - '# Add the folders containing your unit tests'
+    - '# This ensures any test utility classes you create are also ignored'
+    - Demo/Tests/*
+    - Demo/Pods/*
+    - Demo/Build/*
   status:
     patch: false
 notify:
