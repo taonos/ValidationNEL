@@ -19,7 +19,6 @@
 		7E65850F1D316BE400BC8204 /* ValidationNEL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65847A1D2F6B3100BC8204 /* ValidationNEL.swift */; };
 		7E6585101D316BE400BC8204 /* ValidationNEL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65847A1D2F6B3100BC8204 /* ValidationNEL.swift */; };
 		7E6585111D316BE500BC8204 /* ValidationNEL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65847A1D2F6B3100BC8204 /* ValidationNEL.swift */; };
-		7E6585201D316FAE00BC8204 /* ValidationNEL_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65851F1D316FAE00BC8204 /* ValidationNEL_tvOSTests.swift */; };
 		7E6585221D316FAE00BC8204 /* ValidationNEL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6584E41D305E6400BC8204 /* ValidationNEL.framework */; };
 		7E6585291D31705400BC8204 /* Swiftz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6585281D31705400BC8204 /* Swiftz.framework */; };
 		7E65852B1D31705C00BC8204 /* Swiftz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E65852A1D31705C00BC8204 /* Swiftz.framework */; };
@@ -27,6 +26,8 @@
 		7E65852F1D31706D00BC8204 /* Swiftz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E65852E1D31706D00BC8204 /* Swiftz.framework */; };
 		7E6585311D31722F00BC8204 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6585301D31722F00BC8204 /* Quick.framework */; };
 		7E6585331D31723200BC8204 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6585321D31723200BC8204 /* Nimble.framework */; };
+		7E65854E1D31805200BC8204 /* ValidationNELTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6584511D2F665200BC8204 /* ValidationNELTests.swift */; };
+		7E65854F1D31806900BC8204 /* MyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65847D1D2F7B3100BC8204 /* MyError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +50,7 @@
 /* Begin PBXFileReference section */
 		7E65844C1D2F665200BC8204 /* ValidationNELTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidationNELTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6584511D2F665200BC8204 /* ValidationNELTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationNELTests.swift; sourceTree = "<group>"; };
-		7E6584531D2F665200BC8204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6584531D2F665200BC8204 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		7E6584721D2F687F00BC8204 /* Swiftz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swiftz.framework; path = "Carthage/Checkouts/Swiftz/build/Debug-iphoneos/Swiftz.framework"; sourceTree = "<group>"; };
 		7E6584741D2F688D00BC8204 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Carthage/Checkouts/Quick/build/Debug-iphoneos/Quick.framework"; sourceTree = "<group>"; };
 		7E6584761D2F689100BC8204 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
@@ -71,8 +72,7 @@
 		7E6585171D316F1C00BC8204 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7E6585181D316F1C00BC8204 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7E65851D1D316FAE00BC8204 /* ValidationNEL-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ValidationNEL-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E65851F1D316FAE00BC8204 /* ValidationNEL_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationNEL_tvOSTests.swift; sourceTree = "<group>"; };
-		7E6585211D316FAE00BC8204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6585211D316FAE00BC8204 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		7E6585281D31705400BC8204 /* Swiftz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swiftz.framework; path = "Carthage/Checkouts/Swiftz/build/Debug-watchos/Swiftz.framework"; sourceTree = "<group>"; };
 		7E65852A1D31705C00BC8204 /* Swiftz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swiftz.framework; path = "Carthage/Checkouts/Swiftz/build/Debug-appletvos/Swiftz.framework"; sourceTree = "<group>"; };
 		7E65852C1D31706800BC8204 /* Swiftz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swiftz.framework; path = Carthage/Checkouts/Swiftz/build/Debug/Swiftz.framework; sourceTree = "<group>"; };
@@ -143,9 +143,8 @@
 			children = (
 				7E6585121D316F0400BC8204 /* Metadata */,
 				7E6584F91D305F2600BC8204 /* Sources */,
-				7E65851E1D316FAE00BC8204 /* ValidationNEL-tvOSTests */,
+				7E65854D1D317F6200BC8204 /* Tests */,
 				7E6584791D2F689C00BC8204 /* Frameworks */,
-				7E6584501D2F665200BC8204 /* ValidationNELTests */,
 				7E6584431D2F665200BC8204 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -161,16 +160,6 @@
 				7E65851D1D316FAE00BC8204 /* ValidationNEL-tvOSTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7E6584501D2F665200BC8204 /* ValidationNELTests */ = {
-			isa = PBXGroup;
-			children = (
-				7E65847C1D2F7B2100BC8204 /* Helpers */,
-				7E6584511D2F665200BC8204 /* ValidationNELTests.swift */,
-				7E6584531D2F665200BC8204 /* Info.plist */,
-			);
-			path = ValidationNELTests;
 			sourceTree = "<group>";
 		};
 		7E6584791D2F689C00BC8204 /* Frameworks */ = {
@@ -197,6 +186,7 @@
 				7E65847D1D2F7B3100BC8204 /* MyError.swift */,
 			);
 			name = Helpers;
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		7E6584F91D305F2600BC8204 /* Sources */ = {
@@ -225,13 +215,15 @@
 			name = Metadata;
 			sourceTree = "<group>";
 		};
-		7E65851E1D316FAE00BC8204 /* ValidationNEL-tvOSTests */ = {
+		7E65854D1D317F6200BC8204 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				7E65851F1D316FAE00BC8204 /* ValidationNEL_tvOSTests.swift */,
-				7E6585211D316FAE00BC8204 /* Info.plist */,
+				7E65847C1D2F7B2100BC8204 /* Helpers */,
+				7E6584511D2F665200BC8204 /* ValidationNELTests.swift */,
+				7E6584531D2F665200BC8204 /* Info-iOS.plist */,
+				7E6585211D316FAE00BC8204 /* Info-tvOS.plist */,
 			);
-			path = "ValidationNEL-tvOSTests";
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -528,7 +520,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E6585201D316FAE00BC8204 /* ValidationNEL_tvOSTests.swift in Sources */,
+				7E65854F1D31806900BC8204 /* MyError.swift in Sources */,
+				7E65854E1D31805200BC8204 /* ValidationNELTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,7 +642,7 @@
 					"$(PROJECT_DIR)/Carthage/Checkouts/Quick/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug-iphoneos",
 				);
-				INFOPLIST_FILE = ValidationNELTests/Info.plist;
+				INFOPLIST_FILE = "Tests/Info-iOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LZ.ValidationNELTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -664,7 +657,7 @@
 					"$(PROJECT_DIR)/Carthage/Checkouts/Quick/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug-iphoneos",
 				);
-				INFOPLIST_FILE = ValidationNELTests/Info.plist;
+				INFOPLIST_FILE = "Tests/Info-iOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LZ.ValidationNELTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -739,7 +732,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
 		};
@@ -763,7 +756,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
@@ -863,7 +856,7 @@
 					"$(PROJECT_DIR)/Carthage/Checkouts/Quick/build/Debug-appletvos",
 					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug-appletvos",
 				);
-				INFOPLIST_FILE = "ValidationNEL-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LZ.ValidationNEL-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -880,7 +873,7 @@
 					"$(PROJECT_DIR)/Carthage/Checkouts/Quick/build/Debug-appletvos",
 					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug-appletvos",
 				);
-				INFOPLIST_FILE = "ValidationNEL-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LZ.ValidationNEL-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
