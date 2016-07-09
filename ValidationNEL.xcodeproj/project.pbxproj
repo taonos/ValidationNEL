@@ -31,6 +31,8 @@
 		7E6585591D31A28200BC8204 /* ValidationNEL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6584F11D305E7100BC8204 /* ValidationNEL.framework */; };
 		7E65855F1D31A2EC00BC8204 /* ValidationNELTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6584511D2F665200BC8204 /* ValidationNELTests.swift */; };
 		7E6585601D31A2EE00BC8204 /* MyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65847D1D2F7B3100BC8204 /* MyError.swift */; };
+		7E6585621D31A6E600BC8204 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6585611D31A6E600BC8204 /* Nimble.framework */; };
+		7E6585641D31A6ED00BC8204 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6585631D31A6ED00BC8204 /* Quick.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +95,8 @@
 		7E6585471D31735100BC8204 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
 		7E6585541D31A28200BC8204 /* ValidationNELTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ValidationNELTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6585581D31A28200BC8204 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
+		7E6585611D31A6E600BC8204 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Checkouts/Nimble/build/Debug/Nimble.framework; sourceTree = "<group>"; };
+		7E6585631D31A6ED00BC8204 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Checkouts/Quick/build/Debug/Quick.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E6585641D31A6ED00BC8204 /* Quick.framework in Frameworks */,
+				7E6585621D31A6E600BC8204 /* Nimble.framework in Frameworks */,
 				7E6585591D31A28200BC8204 /* ValidationNEL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +192,8 @@
 		7E6584791D2F689C00BC8204 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7E6585631D31A6ED00BC8204 /* Quick.framework */,
+				7E6585611D31A6E600BC8204 /* Nimble.framework */,
 				7E6585471D31735100BC8204 /* Nimble.framework */,
 				7E6585451D31734A00BC8204 /* Quick.framework */,
 				7E6585321D31723200BC8204 /* Nimble.framework */,
@@ -952,6 +960,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Quick/build/Debug",
+				);
 				INFOPLIST_FILE = "Tests/Info-macOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -966,6 +979,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Quick/build/Debug",
+				);
 				INFOPLIST_FILE = "Tests/Info-macOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;

@@ -4,6 +4,7 @@
 ## Build generated
 build/
 DerivedData
+xcodebuild.log
 
 ## Various settings
 *.pbxuser

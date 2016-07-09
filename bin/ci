@@ -13,14 +13,14 @@ WATCHOS_TEST_CMD="xcodebuild build -workspace ValidationNEL.xcworkspace -scheme 
 which -s xcpretty
 XCPRETTY_INSTALLED=$?
 
-# if [[ $TRAVIS || $XCPRETTY_INSTALLED == 0 ]]; then
-#   eval "${IOS_TEST_CMD} | xcpretty -c"
-#   eval "${TVOS_TEST_CMD} | xcpretty -c"
-#   eval "${MACOS_TEST_CMD} | xcpretty -c"
-#   eval "${WATCHOS_TEST_CMD} | xcpretty -c"
-# else
+if [[ $TRAVIS || $XCPRETTY_INSTALLED == 0 ]]; then
+  eval "set -o pipefail && ${IOS_TEST_CMD} | tee xcodebuild.log | xcpretty -c"
+  eval "set -o pipefail && ${TVOS_TEST_CMD} | tee xcodebuild.log | xcpretty -c"
+  eval "set -o pipefail && ${MACOS_TEST_CMD} | tee xcodebuild.log | xcpretty -c"
+  eval "set -o pipefail && ${WATCHOS_TEST_CMD} | tee xcodebuild.log | xcpretty -c"
+else
   eval "$IOS_TEST_CMD"
   eval "$TVOS_TEST_CMD"
   eval "$MACOS_TEST_CMD"
   eval "$WATCHOS_TEST_CMD"
-# fi
+fi
