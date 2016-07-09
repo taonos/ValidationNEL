@@ -6,7 +6,6 @@
 //  Copyright © 2016 Lance Zhu. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 
 //! Project version number for ValidationNEL.
 FOUNDATION_EXPORT double ValidationNELVersionNumber;
