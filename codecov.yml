@@ -8,8 +8,7 @@ coverage:
   - Applications/Xcode.app/.*
   - vendor/.*
   - Carthage/.*
-  - .*Tests.m
-  - .*Tests.swift
+  - Tests/.*
   - '# Add the folders containing your unit tests'
   - '# This ensures any test utility classes you create are also ignored'
   - Demo/Tests/*
