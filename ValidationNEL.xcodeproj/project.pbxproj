@@ -28,6 +28,9 @@
 		7E6585331D31723200BC8204 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6585321D31723200BC8204 /* Nimble.framework */; };
 		7E65854E1D31805200BC8204 /* ValidationNELTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6584511D2F665200BC8204 /* ValidationNELTests.swift */; };
 		7E65854F1D31806900BC8204 /* MyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65847D1D2F7B3100BC8204 /* MyError.swift */; };
+		7E6585591D31A28200BC8204 /* ValidationNEL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6584F11D305E7100BC8204 /* ValidationNEL.framework */; };
+		7E65855F1D31A2EC00BC8204 /* ValidationNELTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6584511D2F665200BC8204 /* ValidationNELTests.swift */; };
+		7E6585601D31A2EE00BC8204 /* MyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65847D1D2F7B3100BC8204 /* MyError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 7E6585011D30933500BC8204;
 			remoteInfo = "ValidationNEL-iOS";
+		};
+		7E65855A1D31A28200BC8204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E6584391D2F665200BC8204 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E6584F01D305E7100BC8204;
+			remoteInfo = "ValidationNEL-macOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -81,6 +91,8 @@
 		7E6585321D31723200BC8204 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-appletvos/Nimble.framework"; sourceTree = "<group>"; };
 		7E6585451D31734A00BC8204 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Carthage/Checkouts/Quick/build/Debug-iphoneos/Quick.framework"; sourceTree = "<group>"; };
 		7E6585471D31735100BC8204 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
+		7E6585541D31A28200BC8204 /* ValidationNELTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ValidationNELTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6585581D31A28200BC8204 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +147,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7E6585511D31A28200BC8204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6585591D31A28200BC8204 /* ValidationNEL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -158,6 +178,7 @@
 				7E6584F11D305E7100BC8204 /* ValidationNEL.framework */,
 				7E6585021D30933500BC8204 /* ValidationNEL.framework */,
 				7E65851D1D316FAE00BC8204 /* ValidationNEL-tvOSTests.xctest */,
+				7E6585541D31A28200BC8204 /* ValidationNELTests-macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -221,6 +242,7 @@
 				7E65847C1D2F7B2100BC8204 /* Helpers */,
 				7E6584511D2F665200BC8204 /* ValidationNELTests.swift */,
 				7E6584531D2F665200BC8204 /* Info-iOS.plist */,
+				7E6585581D31A28200BC8204 /* Info-macOS.plist */,
 				7E6585211D316FAE00BC8204 /* Info-tvOS.plist */,
 			);
 			path = Tests;
@@ -372,6 +394,24 @@
 			productReference = 7E65851D1D316FAE00BC8204 /* ValidationNEL-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		7E6585531D31A28200BC8204 /* ValidationNELTests-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E65855C1D31A28200BC8204 /* Build configuration list for PBXNativeTarget "ValidationNELTests-macOS" */;
+			buildPhases = (
+				7E6585501D31A28200BC8204 /* Sources */,
+				7E6585511D31A28200BC8204 /* Frameworks */,
+				7E6585521D31A28200BC8204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E65855B1D31A28200BC8204 /* PBXTargetDependency */,
+			);
+			name = "ValidationNELTests-macOS";
+			productName = "ValidationNELTests-macOS";
+			productReference = 7E6585541D31A28200BC8204 /* ValidationNELTests-macOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -405,6 +445,9 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = PURSU9V83K;
 					};
+					7E6585531D31A28200BC8204 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 7E65843C1D2F665200BC8204 /* Build configuration list for PBXProject "ValidationNEL" */;
@@ -425,6 +468,7 @@
 				7E6584F01D305E7100BC8204 /* ValidationNEL-macOS */,
 				7E6585011D30933500BC8204 /* ValidationNEL-iOS */,
 				7E65851C1D316FAE00BC8204 /* ValidationNEL-tvOSTests */,
+				7E6585531D31A28200BC8204 /* ValidationNELTests-macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -466,6 +510,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7E65851B1D316FAE00BC8204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6585521D31A28200BC8204 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -525,6 +576,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7E6585501D31A28200BC8204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6585601D31A2EE00BC8204 /* MyError.swift in Sources */,
+				7E65855F1D31A2EC00BC8204 /* ValidationNELTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -537,6 +597,11 @@
 			isa = PBXTargetDependency;
 			target = 7E6585011D30933500BC8204 /* ValidationNEL-iOS */;
 			targetProxy = 7E65854B1D31740600BC8204 /* PBXContainerItemProxy */;
+		};
+		7E65855B1D31A28200BC8204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E6584F01D305E7100BC8204 /* ValidationNEL-macOS */;
+			targetProxy = 7E65855A1D31A28200BC8204 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -882,6 +947,34 @@
 			};
 			name = Release;
 		};
+		7E65855D1D31A28200BC8204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests/Info-macOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LZ.ValidationNELTests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7E65855E1D31A28200BC8204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests/Info-macOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LZ.ValidationNELTests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -947,6 +1040,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		7E65855C1D31A28200BC8204 /* Build configuration list for PBXNativeTarget "ValidationNELTests-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E65855D1D31A28200BC8204 /* Debug */,
+				7E65855E1D31A28200BC8204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

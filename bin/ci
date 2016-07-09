@@ -2,25 +2,25 @@
 
 set -e
 
-TEST_CMD1=xctool -workspace ValidationNEL.xcworkspace -scheme ValidationNEL-iOS -sdk iphonesimulator9.3 build test
+IOS_TEST_CMD="xcodebuild test -workspace ValidationNEL.xcworkspace -scheme ValidationNEL-iOS -configuration Debug -sdk iphonesimulator9.3 -destination 'platform=iOS Simulator,name=iPhone 6s'"
 
-TEST_CMD2=xctool -workspace ValidationNEL.xcworkspace -scheme ValidationNEL-tvOS -sdk appletvsimulator9.2 build test
+TVOS_TEST_CMD="xcodebuild build test -workspace ValidationNEL.xcworkspace -scheme ValidationNEL-tvOS -sdk appletvsimulator9.2 -destination 'platform=tvOS Simulator,name=Apple TV 1080p'"
 
-TEST_CMD3=xctool -workspace ValidationNEL.xcworkspace -scheme ValidationNEL-macOS -sdk macosx10.11 build
+MACOS_TEST_CMD="xcodebuild build test -workspace ValidationNEL.xcworkspace -scheme ValidationNEL-macOS -sdk macosx10.11"
 
-TEST_CMD4=xctool -workspace ValidationNEL.xcworkspace -scheme ValidationNEL-watchOS -sdk watchsimulator2.2 build
+WATCHOS_TEST_CMD="xcodebuild build -workspace ValidationNEL.xcworkspace -scheme ValidationNEL-watchOS -sdk watchsimulator2.2 -destination 'platform=watchOS Simulator,name=Apple Watch - 42mm'"
 
 which -s xcpretty
 XCPRETTY_INSTALLED=$?
 
-if [[ $TRAVIS || $XCPRETTY_INSTALLED == 0 ]]; then
-  eval "${TEST_CMD1} | xcpretty"
-  eval "${TEST_CMD2} | xcpretty"
-  eval "${TEST_CMD3} | xcpretty"
-  eval "${TEST_CMD4} | xcpretty"
-else
-  eval "$TEST_CMD1"
-  eval "$TEST_CMD2"
-  eval "$TEST_CMD3"
-  eval "$TEST_CMD4"
-fi
+# if [[ $TRAVIS || $XCPRETTY_INSTALLED == 0 ]]; then
+#   eval "${IOS_TEST_CMD} | xcpretty -c"
+#   eval "${TVOS_TEST_CMD} | xcpretty -c"
+#   eval "${MACOS_TEST_CMD} | xcpretty -c"
+#   eval "${WATCHOS_TEST_CMD} | xcpretty -c"
+# else
+  eval "$IOS_TEST_CMD"
+  eval "$TVOS_TEST_CMD"
+  eval "$MACOS_TEST_CMD"
+  eval "$WATCHOS_TEST_CMD"
+# fi
