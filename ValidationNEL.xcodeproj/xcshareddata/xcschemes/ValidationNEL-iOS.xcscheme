@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7E6584411D2F665200BC8204"
+               BlueprintIdentifier = "7E6585011D30933500BC8204"
                BuildableName = "ValidationNEL.framework"
-               BlueprintName = "ValidationNEL"
+               BlueprintName = "ValidationNEL-iOS"
                ReferencedContainer = "container:ValidationNEL.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,9 +43,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E6584411D2F665200BC8204"
+            BlueprintIdentifier = "7E6585011D30933500BC8204"
             BuildableName = "ValidationNEL.framework"
-            BlueprintName = "ValidationNEL"
+            BlueprintName = "ValidationNEL-iOS"
             ReferencedContainer = "container:ValidationNEL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +65,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E6584411D2F665200BC8204"
+            BlueprintIdentifier = "7E6585011D30933500BC8204"
             BuildableName = "ValidationNEL.framework"
-            BlueprintName = "ValidationNEL"
+            BlueprintName = "ValidationNEL-iOS"
             ReferencedContainer = "container:ValidationNEL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,9 +83,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E6584411D2F665200BC8204"
+            BlueprintIdentifier = "7E6585011D30933500BC8204"
             BuildableName = "ValidationNEL.framework"
-            BlueprintName = "ValidationNEL"
+            BlueprintName = "ValidationNEL-iOS"
             ReferencedContainer = "container:ValidationNEL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

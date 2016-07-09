@@ -7,30 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E6584461D2F665200BC8204 /* ValidationNEL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6584451D2F665200BC8204 /* ValidationNEL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E65844D1D2F665200BC8204 /* ValidationNEL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6584421D2F665200BC8204 /* ValidationNEL.framework */; };
 		7E6584521D2F665200BC8204 /* ValidationNELTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6584511D2F665200BC8204 /* ValidationNELTests.swift */; };
-		7E6584731D2F687F00BC8204 /* Swiftz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6584721D2F687F00BC8204 /* Swiftz.framework */; };
 		7E6584751D2F688D00BC8204 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6584741D2F688D00BC8204 /* Quick.framework */; };
 		7E6584771D2F689100BC8204 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6584761D2F689100BC8204 /* Nimble.framework */; };
-		7E65847B1D2F6B3100BC8204 /* ValidationNEL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65847A1D2F6B3100BC8204 /* ValidationNEL.swift */; };
 		7E65847E1D2F7B3100BC8204 /* MyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65847D1D2F7B3100BC8204 /* MyError.swift */; };
+		7E6585051D30933600BC8204 /* ValidationNEL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6585041D30933600BC8204 /* ValidationNEL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E65850B1D316B4F00BC8204 /* ValidationNEL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6585041D30933600BC8204 /* ValidationNEL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E65850C1D316B5000BC8204 /* ValidationNEL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6585041D30933600BC8204 /* ValidationNEL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E65850D1D316B5000BC8204 /* ValidationNEL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6585041D30933600BC8204 /* ValidationNEL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E65850E1D316BE300BC8204 /* ValidationNEL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65847A1D2F6B3100BC8204 /* ValidationNEL.swift */; };
+		7E65850F1D316BE400BC8204 /* ValidationNEL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65847A1D2F6B3100BC8204 /* ValidationNEL.swift */; };
+		7E6585101D316BE400BC8204 /* ValidationNEL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65847A1D2F6B3100BC8204 /* ValidationNEL.swift */; };
+		7E6585111D316BE500BC8204 /* ValidationNEL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65847A1D2F6B3100BC8204 /* ValidationNEL.swift */; };
+		7E6585201D316FAE00BC8204 /* ValidationNEL_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65851F1D316FAE00BC8204 /* ValidationNEL_tvOSTests.swift */; };
+		7E6585221D316FAE00BC8204 /* ValidationNEL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6584E41D305E6400BC8204 /* ValidationNEL.framework */; };
+		7E6585291D31705400BC8204 /* Swiftz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6585281D31705400BC8204 /* Swiftz.framework */; };
+		7E65852B1D31705C00BC8204 /* Swiftz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E65852A1D31705C00BC8204 /* Swiftz.framework */; };
+		7E65852D1D31706800BC8204 /* Swiftz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E65852C1D31706800BC8204 /* Swiftz.framework */; };
+		7E65852F1D31706D00BC8204 /* Swiftz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E65852E1D31706D00BC8204 /* Swiftz.framework */; };
+		7E6585311D31722F00BC8204 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6585301D31722F00BC8204 /* Quick.framework */; };
+		7E6585331D31723200BC8204 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6585321D31723200BC8204 /* Nimble.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7E65844E1D2F665200BC8204 /* PBXContainerItemProxy */ = {
+		7E6585231D316FAE00BC8204 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7E6584391D2F665200BC8204 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7E6584411D2F665200BC8204;
-			remoteInfo = ValidationNEL;
+			remoteGlobalIDString = 7E6584E31D305E6400BC8204;
+			remoteInfo = "ValidationNEL-tvOS";
+		};
+		7E65854B1D31740600BC8204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E6584391D2F665200BC8204 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E6585011D30933500BC8204;
+			remoteInfo = "ValidationNEL-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7E6584421D2F665200BC8204 /* ValidationNEL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ValidationNEL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E6584451D2F665200BC8204 /* ValidationNEL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidationNEL.h; sourceTree = "<group>"; };
-		7E6584471D2F665200BC8204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E65844C1D2F665200BC8204 /* ValidationNELTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidationNELTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6584511D2F665200BC8204 /* ValidationNELTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationNELTests.swift; sourceTree = "<group>"; };
 		7E6584531D2F665200BC8204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,24 +55,83 @@
 		7E6584761D2F689100BC8204 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
 		7E65847A1D2F6B3100BC8204 /* ValidationNEL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationNEL.swift; sourceTree = "<group>"; };
 		7E65847D1D2F7B3100BC8204 /* MyError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyError.swift; sourceTree = "<group>"; };
+		7E6584D71D305E5000BC8204 /* ValidationNEL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ValidationNEL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6584E41D305E6400BC8204 /* ValidationNEL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ValidationNEL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6584F11D305E7100BC8204 /* ValidationNEL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ValidationNEL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6584FA1D305F6D00BC8204 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
+		7E6584FB1D305F6D00BC8204 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		7E6584FC1D305F6D00BC8204 /* Info-watchOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
+		7E6585021D30933500BC8204 /* ValidationNEL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ValidationNEL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6585041D30933600BC8204 /* ValidationNEL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidationNEL.h; sourceTree = "<group>"; };
+		7E65850A1D30934F00BC8204 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		7E6585131D316F1C00BC8204 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		7E6585141D316F1C00BC8204 /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
+		7E6585151D316F1C00BC8204 /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
+		7E6585161D316F1C00BC8204 /* codecov.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = codecov.yml; sourceTree = "<group>"; };
+		7E6585171D316F1C00BC8204 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7E6585181D316F1C00BC8204 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7E65851D1D316FAE00BC8204 /* ValidationNEL-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ValidationNEL-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E65851F1D316FAE00BC8204 /* ValidationNEL_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationNEL_tvOSTests.swift; sourceTree = "<group>"; };
+		7E6585211D316FAE00BC8204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6585281D31705400BC8204 /* Swiftz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swiftz.framework; path = "Carthage/Checkouts/Swiftz/build/Debug-watchos/Swiftz.framework"; sourceTree = "<group>"; };
+		7E65852A1D31705C00BC8204 /* Swiftz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swiftz.framework; path = "Carthage/Checkouts/Swiftz/build/Debug-appletvos/Swiftz.framework"; sourceTree = "<group>"; };
+		7E65852C1D31706800BC8204 /* Swiftz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swiftz.framework; path = Carthage/Checkouts/Swiftz/build/Debug/Swiftz.framework; sourceTree = "<group>"; };
+		7E65852E1D31706D00BC8204 /* Swiftz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swiftz.framework; path = "../../../Library/Developer/Xcode/DerivedData/ValidationNEL-hjjtbannqnhxcidxdfucyoqxmflj/Build/Products/Debug-iphonesimulator/Swiftz.framework"; sourceTree = "<group>"; };
+		7E6585301D31722F00BC8204 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Carthage/Checkouts/Quick/build/Debug-appletvos/Quick.framework"; sourceTree = "<group>"; };
+		7E6585321D31723200BC8204 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-appletvos/Nimble.framework"; sourceTree = "<group>"; };
+		7E6585451D31734A00BC8204 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Carthage/Checkouts/Quick/build/Debug-iphoneos/Quick.framework"; sourceTree = "<group>"; };
+		7E6585471D31735100BC8204 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7E65843E1D2F665200BC8204 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E6584731D2F687F00BC8204 /* Swiftz.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7E6584491D2F665200BC8204 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7E6584771D2F689100BC8204 /* Nimble.framework in Frameworks */,
 				7E6584751D2F688D00BC8204 /* Quick.framework in Frameworks */,
-				7E65844D1D2F665200BC8204 /* ValidationNEL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6584D31D305E5000BC8204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6585291D31705400BC8204 /* Swiftz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6584E01D305E6400BC8204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E65852B1D31705C00BC8204 /* Swiftz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6584ED1D305E7100BC8204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E65852D1D31706800BC8204 /* Swiftz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6584FE1D30933500BC8204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E65852F1D31706D00BC8204 /* Swiftz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E65851A1D316FAE00BC8204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6585331D31723200BC8204 /* Nimble.framework in Frameworks */,
+				7E6585311D31722F00BC8204 /* Quick.framework in Frameworks */,
+				7E6585221D316FAE00BC8204 /* ValidationNEL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,8 +141,10 @@
 		7E6584381D2F665200BC8204 = {
 			isa = PBXGroup;
 			children = (
+				7E6585121D316F0400BC8204 /* Metadata */,
+				7E6584F91D305F2600BC8204 /* Sources */,
+				7E65851E1D316FAE00BC8204 /* ValidationNEL-tvOSTests */,
 				7E6584791D2F689C00BC8204 /* Frameworks */,
-				7E6584441D2F665200BC8204 /* ValidationNEL */,
 				7E6584501D2F665200BC8204 /* ValidationNELTests */,
 				7E6584431D2F665200BC8204 /* Products */,
 			);
@@ -76,20 +153,14 @@
 		7E6584431D2F665200BC8204 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E6584421D2F665200BC8204 /* ValidationNEL.framework */,
 				7E65844C1D2F665200BC8204 /* ValidationNELTests.xctest */,
+				7E6584D71D305E5000BC8204 /* ValidationNEL.framework */,
+				7E6584E41D305E6400BC8204 /* ValidationNEL.framework */,
+				7E6584F11D305E7100BC8204 /* ValidationNEL.framework */,
+				7E6585021D30933500BC8204 /* ValidationNEL.framework */,
+				7E65851D1D316FAE00BC8204 /* ValidationNEL-tvOSTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7E6584441D2F665200BC8204 /* ValidationNEL */ = {
-			isa = PBXGroup;
-			children = (
-				7E6584451D2F665200BC8204 /* ValidationNEL.h */,
-				7E6584471D2F665200BC8204 /* Info.plist */,
-				7E65847A1D2F6B3100BC8204 /* ValidationNEL.swift */,
-			);
-			path = ValidationNEL;
 			sourceTree = "<group>";
 		};
 		7E6584501D2F665200BC8204 /* ValidationNELTests */ = {
@@ -105,6 +176,14 @@
 		7E6584791D2F689C00BC8204 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7E6585471D31735100BC8204 /* Nimble.framework */,
+				7E6585451D31734A00BC8204 /* Quick.framework */,
+				7E6585321D31723200BC8204 /* Nimble.framework */,
+				7E6585301D31722F00BC8204 /* Quick.framework */,
+				7E65852E1D31706D00BC8204 /* Swiftz.framework */,
+				7E65852C1D31706800BC8204 /* Swiftz.framework */,
+				7E65852A1D31705C00BC8204 /* Swiftz.framework */,
+				7E6585281D31705400BC8204 /* Swiftz.framework */,
 				7E6584761D2F689100BC8204 /* Nimble.framework */,
 				7E6584741D2F688D00BC8204 /* Quick.framework */,
 				7E6584721D2F687F00BC8204 /* Swiftz.framework */,
@@ -120,38 +199,79 @@
 			name = Helpers;
 			sourceTree = "<group>";
 		};
+		7E6584F91D305F2600BC8204 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7E6585041D30933600BC8204 /* ValidationNEL.h */,
+				7E65847A1D2F6B3100BC8204 /* ValidationNEL.swift */,
+				7E65850A1D30934F00BC8204 /* Info-iOS.plist */,
+				7E6584FA1D305F6D00BC8204 /* Info-macOS.plist */,
+				7E6584FB1D305F6D00BC8204 /* Info-tvOS.plist */,
+				7E6584FC1D305F6D00BC8204 /* Info-watchOS.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		7E6585121D316F0400BC8204 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				7E6585131D316F1C00BC8204 /* Cartfile */,
+				7E6585141D316F1C00BC8204 /* Cartfile.private */,
+				7E6585151D316F1C00BC8204 /* Cartfile.resolved */,
+				7E6585161D316F1C00BC8204 /* codecov.yml */,
+				7E6585171D316F1C00BC8204 /* LICENSE */,
+				7E6585181D316F1C00BC8204 /* README.md */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
+		7E65851E1D316FAE00BC8204 /* ValidationNEL-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E65851F1D316FAE00BC8204 /* ValidationNEL_tvOSTests.swift */,
+				7E6585211D316FAE00BC8204 /* Info.plist */,
+			);
+			path = "ValidationNEL-tvOSTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7E65843F1D2F665200BC8204 /* Headers */ = {
+		7E6584D41D305E5000BC8204 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E6584461D2F665200BC8204 /* ValidationNEL.h in Headers */,
+				7E65850B1D316B4F00BC8204 /* ValidationNEL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6584E11D305E6400BC8204 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E65850C1D316B5000BC8204 /* ValidationNEL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6584EE1D305E7100BC8204 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E65850D1D316B5000BC8204 /* ValidationNEL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6584FF1D30933500BC8204 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6585051D30933600BC8204 /* ValidationNEL.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7E6584411D2F665200BC8204 /* ValidationNEL */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7E6584561D2F665200BC8204 /* Build configuration list for PBXNativeTarget "ValidationNEL" */;
-			buildPhases = (
-				7E65843D1D2F665200BC8204 /* Sources */,
-				7E65843E1D2F665200BC8204 /* Frameworks */,
-				7E65843F1D2F665200BC8204 /* Headers */,
-				7E6584401D2F665200BC8204 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ValidationNEL;
-			productName = ValidationNEL;
-			productReference = 7E6584421D2F665200BC8204 /* ValidationNEL.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		7E65844B1D2F665200BC8204 /* ValidationNELTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E6584591D2F665200BC8204 /* Build configuration list for PBXNativeTarget "ValidationNELTests" */;
@@ -163,11 +283,101 @@
 			buildRules = (
 			);
 			dependencies = (
-				7E65844F1D2F665200BC8204 /* PBXTargetDependency */,
+				7E65854C1D31740600BC8204 /* PBXTargetDependency */,
 			);
 			name = ValidationNELTests;
 			productName = ValidationNELTests;
 			productReference = 7E65844C1D2F665200BC8204 /* ValidationNELTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E6584D61D305E5000BC8204 /* ValidationNEL-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6584DE1D305E5000BC8204 /* Build configuration list for PBXNativeTarget "ValidationNEL-watchOS" */;
+			buildPhases = (
+				7E6584D21D305E5000BC8204 /* Sources */,
+				7E6584D31D305E5000BC8204 /* Frameworks */,
+				7E6584D41D305E5000BC8204 /* Headers */,
+				7E6584D51D305E5000BC8204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ValidationNEL-watchOS";
+			productName = "ValidationNEL-watchOS";
+			productReference = 7E6584D71D305E5000BC8204 /* ValidationNEL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E6584E31D305E6400BC8204 /* ValidationNEL-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6584E91D305E6400BC8204 /* Build configuration list for PBXNativeTarget "ValidationNEL-tvOS" */;
+			buildPhases = (
+				7E6584DF1D305E6400BC8204 /* Sources */,
+				7E6584E01D305E6400BC8204 /* Frameworks */,
+				7E6584E11D305E6400BC8204 /* Headers */,
+				7E6584E21D305E6400BC8204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ValidationNEL-tvOS";
+			productName = "ValidationNEL-tvOS";
+			productReference = 7E6584E41D305E6400BC8204 /* ValidationNEL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E6584F01D305E7100BC8204 /* ValidationNEL-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6584F61D305E7200BC8204 /* Build configuration list for PBXNativeTarget "ValidationNEL-macOS" */;
+			buildPhases = (
+				7E6584EC1D305E7100BC8204 /* Sources */,
+				7E6584ED1D305E7100BC8204 /* Frameworks */,
+				7E6584EE1D305E7100BC8204 /* Headers */,
+				7E6584EF1D305E7100BC8204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ValidationNEL-macOS";
+			productName = "ValidationNEL-macOS";
+			productReference = 7E6584F11D305E7100BC8204 /* ValidationNEL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E6585011D30933500BC8204 /* ValidationNEL-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6585071D30933600BC8204 /* Build configuration list for PBXNativeTarget "ValidationNEL-iOS" */;
+			buildPhases = (
+				7E6584FD1D30933500BC8204 /* Sources */,
+				7E6584FE1D30933500BC8204 /* Frameworks */,
+				7E6584FF1D30933500BC8204 /* Headers */,
+				7E6585001D30933500BC8204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ValidationNEL-iOS";
+			productName = "ValidationNEL-iOS";
+			productReference = 7E6585021D30933500BC8204 /* ValidationNEL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E65851C1D316FAE00BC8204 /* ValidationNEL-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E6585251D316FAE00BC8204 /* Build configuration list for PBXNativeTarget "ValidationNEL-tvOSTests" */;
+			buildPhases = (
+				7E6585191D316FAE00BC8204 /* Sources */,
+				7E65851A1D316FAE00BC8204 /* Frameworks */,
+				7E65851B1D316FAE00BC8204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E6585241D316FAE00BC8204 /* PBXTargetDependency */,
+			);
+			name = "ValidationNEL-tvOSTests";
+			productName = "ValidationNEL-tvOSTests";
+			productReference = 7E65851D1D316FAE00BC8204 /* ValidationNEL-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -180,11 +390,26 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Lance Zhu";
 				TargetAttributes = {
-					7E6584411D2F665200BC8204 = {
+					7E65844B1D2F665200BC8204 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = PURSU9V83K;
 					};
-					7E65844B1D2F665200BC8204 = {
+					7E6584D61D305E5000BC8204 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = PURSU9V83K;
+					};
+					7E6584E31D305E6400BC8204 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = PURSU9V83K;
+					};
+					7E6584F01D305E7100BC8204 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7E6585011D30933500BC8204 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = PURSU9V83K;
+					};
+					7E65851C1D316FAE00BC8204 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = PURSU9V83K;
 					};
@@ -202,21 +427,53 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E6584411D2F665200BC8204 /* ValidationNEL */,
 				7E65844B1D2F665200BC8204 /* ValidationNELTests */,
+				7E6584D61D305E5000BC8204 /* ValidationNEL-watchOS */,
+				7E6584E31D305E6400BC8204 /* ValidationNEL-tvOS */,
+				7E6584F01D305E7100BC8204 /* ValidationNEL-macOS */,
+				7E6585011D30933500BC8204 /* ValidationNEL-iOS */,
+				7E65851C1D316FAE00BC8204 /* ValidationNEL-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7E6584401D2F665200BC8204 /* Resources */ = {
+		7E65844A1D2F665200BC8204 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E65844A1D2F665200BC8204 /* Resources */ = {
+		7E6584D51D305E5000BC8204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6584E21D305E6400BC8204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6584EF1D305E7100BC8204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6585001D30933500BC8204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E65851B1D316FAE00BC8204 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -226,14 +483,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7E65843D1D2F665200BC8204 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E65847B1D2F6B3100BC8204 /* ValidationNEL.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7E6584481D2F665200BC8204 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,13 +492,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7E6584D21D305E5000BC8204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E65850E1D316BE300BC8204 /* ValidationNEL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6584DF1D305E6400BC8204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E65850F1D316BE400BC8204 /* ValidationNEL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6584EC1D305E7100BC8204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6585101D316BE400BC8204 /* ValidationNEL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6584FD1D30933500BC8204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6585111D316BE500BC8204 /* ValidationNEL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6585191D316FAE00BC8204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6585201D316FAE00BC8204 /* ValidationNEL_tvOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7E65844F1D2F665200BC8204 /* PBXTargetDependency */ = {
+		7E6585241D316FAE00BC8204 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7E6584411D2F665200BC8204 /* ValidationNEL */;
-			targetProxy = 7E65844E1D2F665200BC8204 /* PBXContainerItemProxy */;
+			target = 7E6584E31D305E6400BC8204 /* ValidationNEL-tvOS */;
+			targetProxy = 7E6585231D316FAE00BC8204 /* PBXContainerItemProxy */;
+		};
+		7E65854C1D31740600BC8204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E6585011D30933500BC8204 /* ValidationNEL-iOS */;
+			targetProxy = 7E65854B1D31740600BC8204 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -292,7 +586,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -335,56 +630,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7E6584571D2F665200BC8204 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Checkouts/Swiftz/build/Debug-iphoneos",
-				);
-				INFOPLIST_FILE = ValidationNEL/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.LZ.ValidationNEL;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		7E6584581D2F665200BC8204 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Checkouts/Swiftz/build/Debug-iphoneos",
-				);
-				INFOPLIST_FILE = ValidationNEL/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.LZ.ValidationNEL;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -418,6 +671,224 @@
 			};
 			name = Release;
 		};
+		7E6584DC1D305E5000BC8204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Swiftz/build/Debug-watchos",
+				);
+				INFOPLIST_FILE = "Sources/Info-watchOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LZ.ValidationNEL-watchOS";
+				PRODUCT_NAME = ValidationNEL;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		7E6584DD1D305E5000BC8204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Swiftz/build/Debug-watchos",
+				);
+				INFOPLIST_FILE = "Sources/Info-watchOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LZ.ValidationNEL-watchOS";
+				PRODUCT_NAME = ValidationNEL;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		7E6584EA1D305E6400BC8204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Swiftz/build/Debug-appletvos",
+				);
+				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LZ.ValidationNEL-tvOS";
+				PRODUCT_NAME = ValidationNEL;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		7E6584EB1D305E6400BC8204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Swiftz/build/Debug-appletvos",
+				);
+				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LZ.ValidationNEL-tvOS";
+				PRODUCT_NAME = ValidationNEL;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		7E6584F71D305E7200BC8204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Swiftz/build/Debug",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Sources/Info-macOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LZ.ValidationNEL-macOS";
+				PRODUCT_NAME = ValidationNEL;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7E6584F81D305E7200BC8204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Swiftz/build/Debug",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Sources/Info-macOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LZ.ValidationNEL-macOS";
+				PRODUCT_NAME = ValidationNEL;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7E6585081D30933600BC8204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Sources/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LZ.ValidationNEL-iOS";
+				PRODUCT_NAME = ValidationNEL;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7E6585091D30933600BC8204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Sources/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LZ.ValidationNEL-iOS";
+				PRODUCT_NAME = ValidationNEL;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7E6585261D316FAE00BC8204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Quick/build/Debug-appletvos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug-appletvos",
+				);
+				INFOPLIST_FILE = "ValidationNEL-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LZ.ValidationNEL-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		7E6585271D316FAE00BC8204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Quick/build/Debug-appletvos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug-appletvos",
+				);
+				INFOPLIST_FILE = "ValidationNEL-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LZ.ValidationNEL-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -430,20 +901,56 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E6584561D2F665200BC8204 /* Build configuration list for PBXNativeTarget "ValidationNEL" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7E6584571D2F665200BC8204 /* Debug */,
-				7E6584581D2F665200BC8204 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		7E6584591D2F665200BC8204 /* Build configuration list for PBXNativeTarget "ValidationNELTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E65845A1D2F665200BC8204 /* Debug */,
 				7E65845B1D2F665200BC8204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6584DE1D305E5000BC8204 /* Build configuration list for PBXNativeTarget "ValidationNEL-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6584DC1D305E5000BC8204 /* Debug */,
+				7E6584DD1D305E5000BC8204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6584E91D305E6400BC8204 /* Build configuration list for PBXNativeTarget "ValidationNEL-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6584EA1D305E6400BC8204 /* Debug */,
+				7E6584EB1D305E6400BC8204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6584F61D305E7200BC8204 /* Build configuration list for PBXNativeTarget "ValidationNEL-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6584F71D305E7200BC8204 /* Debug */,
+				7E6584F81D305E7200BC8204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6585071D30933600BC8204 /* Build configuration list for PBXNativeTarget "ValidationNEL-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6585081D30933600BC8204 /* Debug */,
+				7E6585091D30933600BC8204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E6585251D316FAE00BC8204 /* Build configuration list for PBXNativeTarget "ValidationNEL-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E6585261D316FAE00BC8204 /* Debug */,
+				7E6585271D316FAE00BC8204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
