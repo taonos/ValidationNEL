@@ -2,17 +2,14 @@ codecov:
   branch: master
 comment:
   layout: "header, changes, diff, sunburst"
-  behavior: new
 coverage:
   ignore:
     - Pods/.*
     - Applications/Xcode.app/.*
     - vendor/.*
     - Carthage/.*
-    - Tests/*
     - Tests/.*
-    - tests/.*
-    - Tests/
+    - Test/.*
     - '# Add the folders containing your unit tests'
     - '# This ensures any test utility classes you create are also ignored'
     - Demo/Tests/*
