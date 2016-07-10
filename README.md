@@ -1,6 +1,7 @@
 # ValidationNEL
 
 [![Build Status](https://travis-ci.org/Hxucaa/ValidationNEL.svg?branch=master)](https://travis-ci.org/Hxucaa/ValidationNEL)
+[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/Hxucaa/ValidationNEL/blob/master/LICENSE)
 
 ValidationNEL is an applicative functor. Instead of chaining the result from first event to the next, it validates all events:
 
