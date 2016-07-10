@@ -8,14 +8,11 @@ coverage:
     - Applications/Xcode.app/.*
     - vendor/.*
     - Carthage/.*
-    - Test/*.swift
-    - Test/*.h
-    - Test/*.m
     - '# Add the folders containing your unit tests'
     - '# This ensures any test utility classes you create are also ignored'
-    - Demo/Tests/*
-    - Demo/Pods/*
-    - Demo/Build/*
+    - Test/.*
+    - Test/ValidationNELTests.swift
+    - Test/Helper/MyError.swift
   status:
     patch: false
 notify:
