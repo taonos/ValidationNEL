@@ -11,6 +11,7 @@ coverage:
     - Carthage/.*
     - Tests/*
     - Tests/.*
+    - tests/.*
     - Tests/
     - '# Add the folders containing your unit tests'
     - '# This ensures any test utility classes you create are also ignored'
