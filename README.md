@@ -3,8 +3,9 @@
 [![Build Status](https://travis-ci.org/Hxucaa/ValidationNEL.svg?branch=master)](https://travis-ci.org/Hxucaa/ValidationNEL)
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/Hxucaa/ValidationNEL/blob/master/LICENSE)
 
-ValidationNEL is an applicative functor. Instead of chaining the result from first event to the next, it validates all events:
+ValidationNEL accumulates failures instead of exiting out upon first failure. This is useful in situations where examing all possible failures is desirable. 
 
+For example, when asking a user to enter a password, we should make sure it satisfies certain constraints such as length, containing special characters. All constraints should be examined and corresponding error messages should be displayed.
 
 ## Installation
 
