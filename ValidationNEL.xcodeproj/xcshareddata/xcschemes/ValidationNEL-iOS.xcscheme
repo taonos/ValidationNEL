@@ -34,8 +34,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7E65844B1D2F665200BC8204"
-               BuildableName = "ValidationNELTests.xctest"
-               BlueprintName = "ValidationNELTests"
+               BuildableName = "ValidationNEL-iOSTests.xctest"
+               BlueprintName = "ValidationNEL-iOSTests"
                ReferencedContainer = "container:ValidationNEL.xcodeproj">
             </BuildableReference>
          </TestableReference>

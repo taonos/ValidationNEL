@@ -34,8 +34,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7E6585531D31A28200BC8204"
-               BuildableName = "ValidationNELTests-macOS.xctest"
-               BlueprintName = "ValidationNELTests-macOS"
+               BuildableName = "ValidationNEL-macOSTests.xctest"
+               BlueprintName = "ValidationNEL-macOSTests"
                ReferencedContainer = "container:ValidationNEL.xcodeproj">
             </BuildableReference>
          </TestableReference>
