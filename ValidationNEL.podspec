@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.authors = { "Lance Zhu" => 'lancezhu77@gmail.com' }
 
   spec.ios.deployment_target = "8.0"
-  spec.osx.deployment_target = "10.9"
+  spec.osx.deployment_target = "10.10"
   spec.tvos.deployment_target = "9.1"
   spec.watchos.deployment_target = "2.1"
   spec.requires_arc = true
