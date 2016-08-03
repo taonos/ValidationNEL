@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 # Variables
 
 IOS_TEST_CMD="xcodebuild test -workspace ValidationNEL.xcworkspace -scheme ValidationNEL-iOS -configuration Debug -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6s'"
@@ -9,9 +11,6 @@ TVOS_TEST_CMD="xcodebuild build test -workspace ValidationNEL.xcworkspace -schem
 MACOS_TEST_CMD="xcodebuild build test -workspace ValidationNEL.xcworkspace -scheme ValidationNEL-macOS -sdk macosx10.11"
 
 WATCHOS_TEST_CMD="xcodebuild build -workspace ValidationNEL.xcworkspace -scheme ValidationNEL-watchOS -sdk watchsimulator -destination 'platform=watchOS Simulator,name=Apple Watch - 42mm'"
-
-
-set -e
 
 # Validate podspec
 pod lib lint

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "ValidationNEL"
-  spec.version = "0.3.0"
+  spec.version = "0.4.0"
   spec.summary = "A Swift implementation of ValidationNEL: accumulating more than one failure."
   spec.homepage = "https://github.com/Hxucaa/ValidationNEL"
   spec.license = { type: 'MIT', file: 'LICENSE' }
