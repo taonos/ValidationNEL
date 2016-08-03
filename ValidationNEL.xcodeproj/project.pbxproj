@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E2223231D5293D600CE1256 /* ValidationNEL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6585021D30933500BC8204 /* ValidationNEL.framework */; };
 		7E6584521D2F665200BC8204 /* ValidationNELTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6584511D2F665200BC8204 /* ValidationNELTests.swift */; };
 		7E6584751D2F688D00BC8204 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6584741D2F688D00BC8204 /* Quick.framework */; };
 		7E6584771D2F689100BC8204 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6584761D2F689100BC8204 /* Nimble.framework */; };
@@ -107,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E2223231D5293D600CE1256 /* ValidationNEL.framework in Frameworks */,
 				7E6584771D2F689100BC8204 /* Nimble.framework in Frameworks */,
 				7E6584751D2F688D00BC8204 /* Quick.framework in Frameworks */,
 			);
