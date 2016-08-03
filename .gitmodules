@@ -6,4 +6,4 @@
 	url = https://github.com/Quick/Quick.git
 [submodule "Carthage/Checkouts/Swiftz"]
 	path = Carthage/Checkouts/Swiftz
-	url = https://github.com/typelift/Swiftz.git
+	url = https://github.com/Hxucaa/Swiftz.git
