@@ -8,12 +8,12 @@ IOS_TEST_CMD="xcodebuild test -workspace ValidationNEL.xcworkspace -scheme Valid
 
 TVOS_TEST_CMD="xcodebuild build test -workspace ValidationNEL.xcworkspace -scheme ValidationNEL-tvOS -sdk appletvsimulator -destination 'platform=tvOS Simulator,name=Apple TV 1080p'"
 
-MACOS_TEST_CMD="xcodebuild build test -workspace ValidationNEL.xcworkspace -scheme ValidationNEL-macOS -sdk macosx10.11"
+MACOS_TEST_CMD="xcodebuild build test -workspace ValidationNEL.xcworkspace -scheme ValidationNEL-macOS"
 
 WATCHOS_TEST_CMD="xcodebuild build -workspace ValidationNEL.xcworkspace -scheme ValidationNEL-watchOS -sdk watchsimulator -destination 'platform=watchOS Simulator,name=Apple Watch - 42mm'"
 
 # Validate podspec
-pod lib lint
+#pod lib lint
 
 which -s xcpretty
 XCPRETTY_INSTALLED=$?

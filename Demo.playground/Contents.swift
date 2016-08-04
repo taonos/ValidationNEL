@@ -1,6 +1,10 @@
 //: Playground - noun: a place where people can play
 
-import UIKit
+// # IMPORTANT: To use `Demo.playground`, please:
+//
+// 1. Open `ValidationNEL.xcworkspace`
+// 2. Build `ValidationNEL-macOS` scheme
+
 import ValidationNEL
 import Swiftz
 
@@ -24,4 +28,3 @@ func validate(value: String) -> ValidationNEL<String, MyError> {
 
 let password = "123456"
 print(validate(password))
-
