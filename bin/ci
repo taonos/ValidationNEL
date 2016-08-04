@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 set -e
 
@@ -16,6 +16,7 @@ which -s xcpretty
 XCPRETTY_INSTALLED=$?
 
 # Run tests
+echo "Running tests..."
 
 if [[ $TRAVIS || $XCPRETTY_INSTALLED == 0 ]]; then
   eval "set -o pipefail && ${IOS_TEST_CMD} | tee xcodebuild.log | xcpretty -c"
