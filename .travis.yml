@@ -1,12 +1,41 @@
-language: objective-c
-osx_image: xcode7.3
-git:
-  submodules: false
 env:
   global:
-  - FRAMEWORK_NAME=ValidationNEL
-script:
-  - carthage bootstrap
-  - sh bin/ci
+    - LC_CTYPE=en_US.UTF-8
+    - FRAMEWORK_NAME=ValidationNEL
+matrix:
+  include:
+    - os: osx
+      language: objective-c
+      osx_image: xcode7.3
+      before_install:
+        - git submodule update --init --recursive
+      script:
+        - pod lib lint
+        - carthage build --no-skip-current
+    - os: osx
+      language: objective-c
+      osx_image: xcode7.3
+      before_install:
+        - git submodule update --init --recursive
+      script:
+        - carthage build --no-skip-current
+        - sh bin/ci
+    - os: linux
+      language: generic
+      sudo: required
+      dist: trusty
+      before_install:
+        - git submodule update --init --recursive
+        - wget -q -O - https://swift.org/keys/all-keys.asc | gpg --import -
+        - wget https://swift.org/builds/development/ubuntu1404/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04.tar.gz
+        - tar xzf swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04.tar.gz
+        - export PATH=${PWD}/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04/usr/bin:"${PATH}"
+        - wget -q -O - https://swift.org/keys/all-keys.asc | gpg --import -
+        - wget https://swift.org/builds/development/ubuntu1404/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04.tar.gz
+        - tar xzf swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04.tar.gz
+        - export PATH=${PWD}/swift-DEVELOPMENT-SNAPSHOT-2016-02-08-a-ubuntu14.04/usr/bin:"${PATH}"
+      script:
+        - swift build
+
 after_success:
   - bash <(curl -s https://codecov.io/bash) -J 'ValidationNEL'

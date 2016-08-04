@@ -116,6 +116,9 @@
 		7E22235E1D531DC500CE1256 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
 		7E22235F1D531DC500CE1256 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
 		7E2223601D531DC500CE1256 /* Swiftz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swiftz.framework; path = Carthage/Build/Mac/Swiftz.framework; sourceTree = "<group>"; };
+		7E2223641D53A2AC00CE1256 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		7E2223651D53A2AC00CE1256 /* .gitmodules */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
+		7E2223661D53A2AC00CE1256 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		7E65844C1D2F665200BC8204 /* ValidationNEL-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ValidationNEL-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6584511D2F665200BC8204 /* ValidationNELTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationNELTests.swift; sourceTree = "<group>"; };
 		7E6584531D2F665200BC8204 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
@@ -290,6 +293,9 @@
 				7E6585161D316F1C00BC8204 /* codecov.yml */,
 				7E6585171D316F1C00BC8204 /* LICENSE */,
 				7E6585181D316F1C00BC8204 /* README.md */,
+				7E2223641D53A2AC00CE1256 /* .gitignore */,
+				7E2223651D53A2AC00CE1256 /* .gitmodules */,
+				7E2223661D53A2AC00CE1256 /* .travis.yml */,
 			);
 			name = Metadata;
 			sourceTree = "<group>";

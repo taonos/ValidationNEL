@@ -12,9 +12,6 @@ MACOS_TEST_CMD="xcodebuild build test -workspace ValidationNEL.xcworkspace -sche
 
 WATCHOS_TEST_CMD="xcodebuild build -workspace ValidationNEL.xcworkspace -scheme ValidationNEL-watchOS -sdk watchsimulator -destination 'platform=watchOS Simulator,name=Apple Watch - 42mm'"
 
-# Validate podspec
-#pod lib lint
-
 which -s xcpretty
 XCPRETTY_INSTALLED=$?
 
