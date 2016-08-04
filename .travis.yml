@@ -12,16 +12,12 @@ matrix:
     - os: osx
       language: objective-c
       osx_image: xcode7.3
-      before_install:
-        - git submodule update --init --recursive
       script:
-        # - carthage build --no-skip-current
+        # rebuild frameworks if Cartfile.resolved is changed from last build
+        - sh bin/bootstrap-if-needed
         - sh bin/ci
       after_success:
         - bash <(curl -s https://codecov.io/bash) -J 'ValidationNEL'
-      before_cache:
-        # rebuild frameworks if Cartfile.resolved is changed from last build
-        - bin/bootstrap-if-needed
       cache:
         directories:
           - Carthage/Build
