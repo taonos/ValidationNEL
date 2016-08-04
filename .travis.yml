@@ -24,4 +24,3 @@ before_cache:
 cache:
   directories:
     - Carthage/Build
-    - Carthage/Cartfile.resolved

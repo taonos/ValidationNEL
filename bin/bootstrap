@@ -1,4 +1,4 @@
 #!/bin/sh
 
 carthage bootstrap
-cp Cartfile.resolved Carthage
+cp Cartfile.resolved Carthage/Build
