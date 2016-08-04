@@ -7,11 +7,8 @@ matrix:
     - os: osx
       language: objective-c
       osx_image: xcode7.3
-      before_install:
-        - git submodule update --init --recursive
       script:
         - pod lib lint
-        - carthage build --no-skip-current
     - os: osx
       language: objective-c
       osx_image: xcode7.3
