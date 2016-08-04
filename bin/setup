@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/sh
 
 if ! command -v carthage > /dev/null; then
   printf 'Carthage is not installed.\n'
@@ -6,4 +6,5 @@ if ! command -v carthage > /dev/null; then
   exit 1
 fi
 
-carthage update --use-submodules
+echo "Update frameworks..."
+carthage update --use-submodules --no-use-binaries
