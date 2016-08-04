@@ -19,8 +19,8 @@ matrix:
         - sh bin/ci
       after_success:
         - bash <(curl -s https://codecov.io/bash) -J 'ValidationNEL'
-before_cache:
-  - bin/bootstrap-if-needed
-cache:
-  directories:
-    - Carthage/Build
+      before_cache:
+        - bin/bootstrap-if-needed
+      cache:
+        directories:
+          - Carthage/Build
