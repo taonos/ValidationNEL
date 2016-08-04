@@ -20,6 +20,7 @@ matrix:
       after_success:
         - bash <(curl -s https://codecov.io/bash) -J 'ValidationNEL'
       before_cache:
+        # rebuild frameworks if Cartfile.resolved is changed from last build
         - bin/bootstrap-if-needed
       cache:
         directories:
